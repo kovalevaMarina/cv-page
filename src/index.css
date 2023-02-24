@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-gunmetal;
+}
+
+.title-h2 {
+  @apply font-dmsans text-xs font-medium;
+}
+
+.title-h4 {
+  @apply font-dmsans text-["6px"];
+}
