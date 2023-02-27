@@ -4,6 +4,7 @@ import Contacts from "./components/Contacts/Contacts";
 import Socials from "./components/Socials/Socials";
 import Langueges from "./components/Languages/Languages";
 import Projects from "./components/Projects/Projects";
+import Education from "./components/Education/Education";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Socials />
       <Langueges />
       <Projects />
+      <Education />
     </div>
   );
 }

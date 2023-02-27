@@ -33,7 +33,7 @@ const langueges = [
 
 const Langueges = () => {
   return (
-    <div className="contacts">
+    <div className="languages">
       <h3>Languages</h3>
       <ul>
         {langueges.map((languege, index) => (
