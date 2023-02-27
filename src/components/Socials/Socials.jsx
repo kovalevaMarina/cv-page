@@ -34,6 +34,7 @@ const socials = [
 const Socials = () => {
   return (
     <div className="socials">
+      <h3>Socials</h3>
       <ul>
         {socials.map((social, index) => (
           <SocialItem key={index} {...social} />
