@@ -1,10 +1,11 @@
 import React from "react";
 import { photo } from "../helper/images";
+import qoutes from "../../assets/img/icons/quotes.png";
 
 const About = () => {
   return (
     <div className="about mb-4">
-      <div className="about-img w-40 h-20 overflow-hidden mb-4">
+      <div className="about-img mb-4 h-20 w-40 overflow-hidden">
         <img
           className="w-full bg-no-repeat"
           src={photo}
@@ -14,14 +15,17 @@ const About = () => {
       <h1 className="font-outfit text-base font-medium leading-5 text-azureish-white">
         Marina Kovaleva
       </h1>
-      <p className="font-outfit text-xs font-medium tracking-[.01em] mt-1 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-floral to-ultramarine-blue">
+      <p className="mt-1 mb-4 bg-gradient-to-r from-floral to-ultramarine-blue bg-clip-text font-outfit text-xs font-medium tracking-[.01em] text-transparent">
         Front-End Developer
       </p>
-      <blockquote>
-        <p className="text-[9px] leading-3 font-medium tracking-[.02em] text-gainsboro mb-0.5">
+      <blockquote className="relative">
+        <div className="leading-none; absolute -top-3 -left-3 mr-2 font-outfit text-2xl text-crayola">
+          &ldquo;
+        </div>
+        <p className="mb-0.5 text-[9px] font-medium leading-3 tracking-[.02em] text-gainsboro">
           People ignore design that ignore people.
         </p>
-        <p className="font-dmsans text-[6px] leading-[8px] not-italic font-normal text-crayola">
+        <p className="font-dmsans text-[6px] font-normal not-italic leading-[8px] text-crayola">
           Frank Kimero
         </p>
       </blockquote>

@@ -1,12 +1,17 @@
 import React from "react";
 
-const SocialItem = ({ socailName, link, icon }) => {
+const SocialItem = ({ socialName, link, icon, colorClass }) => {
   return (
-    <li>
-      <div style={{ color: "white" }}>{icon}</div>
+    <li className="mb-3 flex items-center">
+      <div className={`mr-2 rounded-full bg-${colorClass} p-1`}>{icon}</div>
       <div>
-        <h4>{socailName}</h4>
-        <a href="#">{link}</a>
+        <h4 className="title-h4">{socialName}</h4>
+        <a
+          className="font-dmsans text-[8px] font-medium text-gainsboro"
+          href="#"
+        >
+          {link}
+        </a>
       </div>
     </li>
   );
