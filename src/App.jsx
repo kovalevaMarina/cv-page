@@ -10,13 +10,19 @@ import Experience from "./components/Experience/Experience";
 function App() {
   return (
     <div className="App">
-      <About />
-      <Contacts />
-      <Socials />
-      <Langueges />
-      <Projects />
-      <Education />
-      <Experience />
+      <div className="conatiner px-3.5">
+        <aside className="max-w-[180px] pr-5">
+          <About />
+          <Contacts />
+          <Socials />
+          <Langueges />
+        </aside>
+        <main>
+          <Projects />
+          <Education />
+          <Experience />
+        </main>
+      </div>
     </div>
   );
 }

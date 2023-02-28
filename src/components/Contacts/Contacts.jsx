@@ -33,7 +33,7 @@ const contacts = [
 
 const Contacts = () => {
   return (
-    <div className="contacts">
+    <div className="mb-4 pt-4 border-t border-solid border-gunmetal">
       <ul>
         {contacts.map((contact, index) => (
           <ContactItem key={index} {...contact} />
