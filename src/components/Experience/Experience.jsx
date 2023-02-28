@@ -4,7 +4,7 @@ import Apple from "../Icons/Apple";
 
 const Experience = () => {
   return (
-    <div className="xxperience">
+    <div className="experience">
       <h2>Experience</h2>
       <div>
         <div>

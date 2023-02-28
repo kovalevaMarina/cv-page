@@ -7,11 +7,3 @@
 body {
   @apply bg-gunmetal;
 }
-
-.title-h2 {
-  @apply font-dmsans text-xs font-medium;
-}
-
-.title-h4 {
-  @apply font-dmsans text-["6px"];
-}
