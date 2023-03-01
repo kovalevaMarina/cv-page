@@ -16,6 +16,7 @@ module.exports = {
         'floral': '#A478E8',
         'ultramarine-blue': '#516CF7',
         'gainsboro': '#D9DFE8',
+        'cobalt': '#2A337E',
       }
     },
 

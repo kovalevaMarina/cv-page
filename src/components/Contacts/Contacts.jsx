@@ -15,7 +15,7 @@ const contacts = [
   {
     title: "Website",
     text: "https://aldesign.it",
-    icon: <LinkSimple />,
+    icon: <LinkSimple className="fill-azureish-white" />,
   },
 
   {

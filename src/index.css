@@ -8,6 +8,14 @@ body {
   @apply bg-yankees-blue;
 }
 
+.title-h2 {
+  @apply font-outfit text-xs font-medium text-azureish-white;
+}
+
+.title-h3 {
+  @apply font-dmsans text-[8px] font-medium leading-[10px];
+}
+
 .title-h4 {
   @apply font-dmsans font-normal text-[7px] text-crayola;
 }

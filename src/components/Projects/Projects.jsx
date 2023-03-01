@@ -1,6 +1,6 @@
 import React from "react";
 import Figma from "../Icons/FigmaLogo";
-import Link from "../Icons/LocationMarker";
+import Link from "../Icons/LinkSimple";
 import ProjectItem from "./ProjectItem";
 import { project_figma, project_shop } from "../helper/images";
 
@@ -18,7 +18,7 @@ const projects = [
     title: "Modern Website",
     description:
       "Powerful website + dashboard template for your next Chakra UI project.",
-    icon: <Link />,
+    icon: <Link className="fill-jordy-blue" />,
     link: "https://ui-8.net",
   },
 ];
@@ -26,8 +26,8 @@ const projects = [
 const Projects = () => {
   return (
     <div className="projects">
-      <h2>Latest projects</h2>
-      <div>
+      <h2 className="title-h2 mb-4">Latest projects</h2>
+      <div className="flex gap-1">
         {projects.map((project, index) => (
           <ProjectItem key={index} {...project} />
         ))}
