@@ -2,11 +2,13 @@ import React from "react";
 
 const LanguegeItem = ({ languege, proficiencyLevel, flag }) => {
   return (
-    <li>
-      <div>{flag}</div>
+    <li className="mb-3 flex items-center">
+      <div className="mr-2 h-3 w-4 rounded-md">{flag}</div>
       <div>
-        <h3>{languege}</h3>
-        <p>{proficiencyLevel}</p>
+        <h3 className="font-dmsans text-[8px] font-medium text-gainsboro">
+          {languege}
+        </h3>
+        <p className="title-h4">{proficiencyLevel}</p>
       </div>
     </li>
   );

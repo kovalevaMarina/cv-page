@@ -10,14 +10,14 @@ import Experience from "./components/Experience/Experience";
 function App() {
   return (
     <div className="App">
-      <div className="conatiner px-3.5">
+      <div className="container mx-auto flex max-w-[1018px] px-3.5">
         <aside className="max-w-[180px] pr-5">
           <About />
           <Contacts />
           <Socials />
           <Langueges />
         </aside>
-        <main>
+        <main className="max-w-[842px] py-9 pl-4 pr-6">
           <Projects />
           <Education />
           <Experience />

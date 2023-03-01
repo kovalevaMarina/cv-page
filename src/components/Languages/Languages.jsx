@@ -9,32 +9,32 @@ const langueges = [
   {
     languege: "Italian",
     proficiencyLevel: "Native",
-    flag: <Italian />,
+    flag: <Italian className="h-3 w-4 rounded-sm" />,
   },
 
   {
     languege: "Greek",
     proficiencyLevel: "Native",
-    flag: <Greece />,
+    flag: <Greece className="h-3 w-4 rounded-sm" />,
   },
 
   {
     languege: "English",
     proficiencyLevel: "Professional working",
-    flag: <English />,
+    flag: <English className="h-3 w-4 rounded-sm" />,
   },
 
   {
     languege: "Ukrainian",
     proficiencyLevel: "Elementary",
-    flag: <Ukrainian />,
+    flag: <Ukrainian className="h-3 w-4 rounded-sm" />,
   },
 ];
 
 const Langueges = () => {
   return (
-    <div className="languages">
-      <h3>Languages</h3>
+    <div className="border-t border-solid border-gunmetal pt-4">
+      <h4 className="title-h4 mb-3">Languages</h4>
       <ul>
         {langueges.map((languege, index) => (
           <LanguegeItem key={index} {...languege} />

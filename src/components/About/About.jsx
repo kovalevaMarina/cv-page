@@ -1,6 +1,5 @@
 import React from "react";
 import { photo } from "../helper/images";
-import qoutes from "../../assets/img/icons/quotes.png";
 
 const About = () => {
   return (
@@ -19,9 +18,9 @@ const About = () => {
         Front-End Developer
       </p>
       <blockquote className="relative">
-        <div className="leading-none; absolute -top-3 -left-3 mr-2 font-outfit text-2xl text-crayola">
+        <span className="leading-none; absolute -top-3 -left-3 mr-2 font-outfit text-2xl text-crayola opacity-25">
           &ldquo;
-        </div>
+        </span>
         <p className="mb-0.5 text-[9px] font-medium leading-3 tracking-[.02em] text-gainsboro">
           People ignore design that ignore people.
         </p>
