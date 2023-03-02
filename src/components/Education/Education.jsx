@@ -34,9 +34,9 @@ const education = [
 
 const Education = () => {
   return (
-    <div className="education">
-      <h2>Education</h2>
-      <div>
+    <div className="mb-6">
+      <h2 className="title-h2 mb-4">Education</h2>
+      <div className="grid max-w-[346px] grid-cols-3 gap-1">
         {education.map((item, index) => (
           <EducationItem key={index} {...item} />
         ))}

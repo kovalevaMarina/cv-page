@@ -25,7 +25,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="mb-6">
       <h2 className="title-h2 mb-4">Latest projects</h2>
       <div className="flex gap-1">
         {projects.map((project, index) => (
