@@ -10,28 +10,28 @@ const socials = [
     socialName: "Instagram",
     link: "@angelolibero.designs",
     icon: <Instagram />,
-    colorClass: "gradient-to-r from-orange-500 to-pink-500",
+    colorClass: "bg-gradient-to-r from-orange-500 to-pink-500",
   },
 
   {
     socialName: "Dribbble",
     link: "@angelolibero-designs",
     icon: <Dribbble />,
-    colorClass: "pink-500",
+    colorClass: "bg-pink-500",
   },
 
   {
     socialName: "Twitter",
     link: "@angeloldesigns",
     icon: <Twitter />,
-    colorClass: "cyan-500",
+    colorClass: "bg-cyan-500",
   },
 
   {
     socialName: "Linkedin",
     link: "angelo-libero-a42a0438",
     icon: <Linkedin />,
-    colorClass: "sky-600",
+    colorClass: "bg-sky-600",
   },
 ];
 
