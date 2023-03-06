@@ -10,10 +10,10 @@ const ExperienceItem = ({
   requirements,
 }) => {
   return (
-    <div className="mb-2 flex justify-between last:mb-0">
+    <div className="mb-2 flex justify-between pl-1 last:mb-0">
       <div className="w-[120px]">
         <div className="mb-1 flex items-center">
-          <div className="block h-0.5 w-0.5 rounded-full bg-crayola"></div>
+          <div className="relative -left-[2px] block h-1 w-1 rounded-full bg-crayola"></div>
           <time className="pl-1 font-dmsans text-[5px] font-normal leading-[7px] text-crayola">
             {period}
           </time>

@@ -34,7 +34,7 @@ const education = [
 
 const Education = () => {
   return (
-    <div className="mb-6">
+    <div className="mb-6 pl-4">
       <h2 className="title-h2 mb-4">Education</h2>
       <div className="grid max-w-[346px] grid-cols-3 gap-1">
         {education.map((item, index) => (

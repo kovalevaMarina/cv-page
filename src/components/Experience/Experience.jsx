@@ -40,7 +40,7 @@ const experience = [
 
 const Experience = () => {
   return (
-    <div className="mb-6">
+    <div className="mb-6 pl-4">
       <h2 className="title-h2 mb-4">Experience</h2>
       <div>
         {experience.map((item, index) => (
