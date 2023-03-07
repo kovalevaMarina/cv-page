@@ -1,6 +1,7 @@
 import React from "react";
 import AngleBrackets from "../Icons/AngleBrackets";
 import Tools from "../Icons/Tools";
+import Circle from "../Icons/Circle";
 
 const skills = [
   {
@@ -14,7 +15,7 @@ const skills = [
   },
 
   {
-    title: "Development",
+    title: "Technologies",
     firstLine: ["React JS", "Tailwind"],
     secondLine: ["Vite", "Webpack"],
     thirdLine: ["HTML", "CSS/SCSS", "JS"],
@@ -26,7 +27,8 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="mb-6 pl-4">
+    <div className="relative border-l border-gunmetal pb-6 pl-6">
+      <Circle />
       <h2 className="title-h2 mb-4">Skills</h2>
       <div className="flex gap-3">
         {skills.map((skill, i) => (

@@ -5,6 +5,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
     extend: {
       colors: {
         'gunmetal': '#2E2E48',
@@ -19,7 +20,7 @@ module.exports = {
         'cobalt': '#2A337E',
         'violet': '#5531A7',
         'cosmic-cobalt': '#2A337E',
-      }
+      },
     },
 
     typography: {

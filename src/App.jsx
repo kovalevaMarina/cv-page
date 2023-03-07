@@ -11,7 +11,7 @@ import Skills from "./components/Skills/Skills";
 function App() {
   return (
     <div className="App">
-      <div className="container mx-auto flex max-w-[594px] px-3.5">
+      <div className="container mx-auto flex w-full px-4">
         <aside className="pr-5">
           <About />
           <Contacts />

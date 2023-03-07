@@ -3,6 +3,7 @@ import Figma from "../Icons/FigmaLogo";
 import Link from "../Icons/LinkSimple";
 import ProjectItem from "./ProjectItem";
 import { project_figma, project_shop } from "../helper/images";
+import Circle from "../Icons/Circle";
 
 const projects = [
   {
@@ -25,7 +26,8 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="mb-6 pl-4">
+    <div className="relative border-l border-gunmetal pb-6 pl-6">
+      <Circle />
       <h2 className="title-h2 mb-4">Latest projects</h2>
       <div className="flex gap-1">
         {projects.map((project, index) => (

@@ -2,6 +2,7 @@ import React from "react";
 import ExperienceItem from "./ExperienceItem";
 import Location from "../Icons/LocationMarker";
 import Apple from "../Icons/Apple";
+import Circle from "../Icons/Circle";
 
 const experience = [
   {
@@ -40,7 +41,8 @@ const experience = [
 
 const Experience = () => {
   return (
-    <div className="mb-6 pl-4">
+    <div className="relative border-l border-gunmetal pb-6 pl-6">
+      <Circle />
       <h2 className="title-h2 mb-4">Experience</h2>
       <div>
         {experience.map((item, index) => (
