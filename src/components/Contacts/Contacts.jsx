@@ -8,26 +8,26 @@ import Location from "../Icons/LocationMarker";
 const contacts = [
   {
     title: "Email",
-    text: "angelo.libero@gmail.com",
-    icon: <Email />,
+    text: "marinakovaleva259@gmail.com",
+    icon: <Email className="h-5 w-5" />,
   },
 
   {
     title: "Website",
     text: "https://aldesign.it",
-    icon: <LinkSimple className="fill-azureish-white" />,
+    icon: <LinkSimple className="h-5 w-5 fill-azureish-white" />,
   },
 
   {
     title: "Phone",
-    text: "(+39) 333 0123 765",
-    icon: <Phone />,
+    text: "(063) 599 65 71",
+    icon: <Phone className="h-5 w-5" />,
   },
 
   {
     title: "Address",
-    text: "Bologna, Italy",
-    icon: <Location />,
+    text: "Dnipro, Ukraine",
+    icon: <Location className="h-5 w-5" />,
   },
 ];
 

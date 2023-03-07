@@ -17,5 +17,5 @@ body {
 }
 
 .title-h4 {
-  @apply font-dmsans font-normal text-[7px] text-crayola;
+  @apply font-dmsans font-normal text-xs text-crayola;
 }
