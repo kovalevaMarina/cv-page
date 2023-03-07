@@ -1,36 +1,40 @@
 import React from "react";
 import SocialItem from "./SocialItem";
-import Instagram from "../Icons/Instagram";
-import Dribbble from "../Icons/Dribbble";
-import Twitter from "../Icons/Twitter";
+import Facebook from "../Icons/Facebook";
+import Gitgub from "../Icons/Github";
+import Telegram from "../Icons/Telegram";
 import Linkedin from "../Icons/Linkedin";
 
 const socials = [
   {
-    socialName: "Instagram",
-    link: "@angelolibero.designs",
-    icon: <Instagram />,
-    colorClass: "bg-gradient-to-r from-orange-500 to-pink-500",
+    socialName: "Facebook",
+    link: "@marina.koval.25",
+    linkHref: "https://www.facebook.com/marina.koval.25/",
+    icon: <Facebook className="h-5 w-5" />,
+    colorClass: "bg-blue-700",
   },
 
   {
-    socialName: "Dribbble",
-    link: "@angelolibero-designs",
-    icon: <Dribbble />,
-    colorClass: "bg-pink-500",
+    socialName: "Gitgub",
+    link: "@kovalevaMarina",
+    linkHref: "https://github.com/kovalevaMarina",
+    icon: <Gitgub className="h-5 w-5" />,
+    colorClass: "bg-gray-900",
   },
 
   {
-    socialName: "Twitter",
-    link: "@angeloldesigns",
-    icon: <Twitter />,
+    socialName: "Telegram",
+    link: "@MarinaKovaleva259",
+    linkHref: "https://t.me/MarinaKovaleva259",
+    icon: <Telegram className="h-5 w-5" />,
     colorClass: "bg-cyan-500",
   },
 
   {
     socialName: "Linkedin",
-    link: "angelo-libero-a42a0438",
-    icon: <Linkedin />,
+    link: "marina-kovaleva-b7470b166",
+    linkHref: "https://www.linkedin.com/in/marina-kovaleva-b7470b166/",
+    icon: <Linkedin className="h-5 w-5" />,
     colorClass: "bg-sky-600",
   },
 ];
