@@ -13,7 +13,7 @@ body {
 }
 
 .title-h3 {
-  @apply font-dmsans text-[8px] font-medium leading-[10px];
+  @apply font-dmsans text-xs font-medium leading-[10px];
 }
 
 .title-h4 {

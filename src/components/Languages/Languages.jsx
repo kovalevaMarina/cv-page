@@ -1,33 +1,19 @@
 import React from "react";
 import LanguegeItem from "../Languages/LanguegeItem";
-import Italian from "../Icons/Italian";
-import Greece from "../Icons/Greece";
 import English from "../Icons/English";
 import Ukrainian from "../Icons/Ukrainian";
 
 const langueges = [
   {
-    languege: "Italian",
-    proficiencyLevel: "Native",
-    flag: <Italian className="h-3 w-4 rounded-sm" />,
-  },
-
-  {
-    languege: "Greek",
-    proficiencyLevel: "Native",
-    flag: <Greece className="h-3 w-4 rounded-sm" />,
-  },
-
-  {
     languege: "English",
-    proficiencyLevel: "Professional working",
-    flag: <English className="h-3 w-4 rounded-sm" />,
+    proficiencyLevel: "Intermediate",
+    flag: <English className="h-full w-full rounded-lg" />,
   },
 
   {
     languege: "Ukrainian",
-    proficiencyLevel: "Elementary",
-    flag: <Ukrainian className="h-3 w-4 rounded-sm" />,
+    proficiencyLevel: "Native",
+    flag: <Ukrainian className="h-full w-full rounded-lg" />,
   },
 ];
 

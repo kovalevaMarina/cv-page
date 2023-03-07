@@ -4,6 +4,7 @@ import Facebook from "../Icons/Facebook";
 import Gitgub from "../Icons/Github";
 import Telegram from "../Icons/Telegram";
 import Linkedin from "../Icons/Linkedin";
+import Instagram from "../Icons/Instagram";
 
 const socials = [
   {
@@ -12,6 +13,14 @@ const socials = [
     linkHref: "https://www.facebook.com/marina.koval.25/",
     icon: <Facebook className="h-5 w-5" />,
     colorClass: "bg-blue-700",
+  },
+
+  {
+    socialName: "Instagram",
+    link: "@marinkakoval",
+    linkHref: "https://www.instagram.com/marinkakoval/",
+    icon: <Instagram className="h-5 w-5" />,
+    colorClass: "bg-gradient-to-r from-orange-500 to-pink-500",
   },
 
   {
