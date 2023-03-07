@@ -11,8 +11,8 @@ import Skills from "./components/Skills/Skills";
 function App() {
   return (
     <div className="App">
-      <div className="container mx-auto flex w-full px-4">
-        <aside className="pr-5">
+      <div className="container mx-auto flex flex-col justify-center px-4">
+        <aside className="md:pr-5">
           <About />
           <Contacts />
           <Socials />
