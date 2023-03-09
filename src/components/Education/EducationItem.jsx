@@ -2,21 +2,17 @@ import React from "react";
 
 const EducationItem = ({ images, organization, course, period }) => {
   return (
-    <div className="flex flex-col justify-between rounded bg-gunmetal py-2 px-3">
-      <div className="mb-1 flex items-center gap-2">
-        <div className="h-6 w-6">
+    <div className="px- flex flex-col justify-between rounded bg-gunmetal py-5 px-4">
+      <div className="mb-3 flex items-center gap-4">
+        <div className="h-11 w-11">
           <img className="w-full" src={images} alt={`Logo ${course}`} />
         </div>
-        <h4 className="font-dmsans text-[6px] font-medium leading-[8px] text-azureish-white">
+        <h5 className="font-dmsans text-xs font-normal text-azureish-white">
           {organization}
-        </h4>
+        </h5>
       </div>
-      <h3 className="mb-0.5 font-dmsans text-[7px] font-medium leading-[9px] text-azureish-white">
-        {course}
-      </h3>
-      <p className="font-dmsans text-[5px] font-normal leading-[7px] text-crayola">
-        {period}
-      </p>
+      <h4 className="title-h4  mb-2 text-azureish-white">{course}</h4>
+      <p className="title-h5">{period}</p>
     </div>
   );
 };

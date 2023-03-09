@@ -35,10 +35,10 @@ const education = [
 
 const Education = () => {
   return (
-    <div className="relative pb-6 md:border-l md:border-gunmetal md:pl-6">
+    <div className="pb-6 md:relative md:border-l md:border-gunmetal md:pl-6">
       <Circle />
       <h2 className="title-h2 mb-4">Education</h2>
-      <div className="grid max-w-[346px] grid-cols-3 gap-1">
+      <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
         {education.map((item, index) => (
           <EducationItem key={index} {...item} />
         ))}
