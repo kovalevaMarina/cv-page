@@ -1,47 +1,25 @@
 import React from "react";
 import ExperienceItem from "./ExperienceItem";
 import Location from "../Icons/LocationMarker";
-import Apple from "../Icons/Apple";
 import Circle from "../Icons/Circle";
+import { dnipro_agro } from "../helper/images";
 
 const experience = [
   {
-    period: "Jul 20 - Jan 2022",
-    icon: <Location className="h-1.5 w-1.5" />,
-    place: "Cupertino",
-    iconCompany: <Apple className="fill-white" />,
-    position: "Front End Developer",
-    company: "Apple,Inc.",
-    requirements:
-      "Omnis minima inventore minus. Aut et incidunt. Aut fugiat culpa illum optio dolorum aut maxime ipsa. Laborum incidunt enim consectetur perspiciatis. Dolore ullam dolor impedit dolorum recusandae facilis quo et. Et ipsam vel sunt qui ut officia voluptatem.",
-  },
-
-  {
-    period: "Jul 20 - Jan 2022",
-    icon: <Location className="h-1.5 w-1.5" />,
-    place: "Cupertino",
-    iconCompany: <Apple className="fill-white" />,
-    position: "Front End Developer",
-    company: "Apple,Inc.",
-    requirements:
-      "Omnis minima inventore minus. Aut et incidunt. Aut fugiat culpa illum optio dolorum aut maxime ipsa. Laborum incidunt enim consectetur perspiciatis. Dolore ullam dolor impedit dolorum recusandae facilis quo et. Et ipsam vel sunt qui ut officia voluptatem.",
-  },
-
-  {
-    period: "Jul 20 - Jan 2022",
-    icon: <Location className="h-1.5 w-1.5" />,
-    place: "Cupertino",
-    iconCompany: <Apple className="fill-white" />,
-    position: "Front End Developer",
-    company: "Apple,Inc.",
-    requirements:
-      "Omnis minima inventore minus. Aut et incidunt. Aut fugiat culpa illum optio dolorum aut maxime ipsa. Laborum incidunt enim consectetur perspiciatis. Dolore ullam dolor impedit dolorum recusandae facilis quo et. Et ipsam vel sunt qui ut officia voluptatem.",
+    period: "Feb 16 - Aug 2021",
+    icon: <Location className="h-3 w-3" />,
+    place: "Dnipro",
+    iconCompany: dnipro_agro,
+    position: "Manager for Administrative Activities",
+    company: "LLC 'UKRTRANSLIT'",
+    responsibility:
+      "Led contracts with 300 clients per month. Worked with manual documentation. Performed personnel accounting.",
   },
 ];
 
 const Experience = () => {
   return (
-    <div className="relative border-l border-gunmetal pb-6 pl-6">
+    <div className="pb-6 md:relative md:border-l md:border-gunmetal md:pl-6">
       <Circle />
       <h2 className="title-h2 mb-4">Experience</h2>
       <div>

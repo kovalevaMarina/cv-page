@@ -9,13 +9,17 @@ body {
 }
 
 .title-h2 {
-  @apply font-outfit text-xs font-medium text-azureish-white;
+  @apply font-outfit text-xl font-medium text-azureish-white;
 }
 
 .title-h3 {
-  @apply font-dmsans text-xs font-medium leading-[10px];
+  @apply font-dmsans text-base font-medium;
 }
 
 .title-h4 {
+  @apply font-dmsans text-xs font-medium;
+}
+
+.title-h5 {
   @apply font-dmsans font-normal text-xs text-crayola;
 }

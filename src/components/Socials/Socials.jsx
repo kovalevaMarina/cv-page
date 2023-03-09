@@ -51,7 +51,7 @@ const socials = [
 const Socials = () => {
   return (
     <div className="mb-4 border-t border-solid border-gunmetal pt-4">
-      <h4 className="title-h4 mb-3">Socials</h4>
+      <h5 className="title-h5 mb-3">Socials</h5>
       <ul>
         {socials.map((social, index) => (
           <SocialItem key={index} {...social} />

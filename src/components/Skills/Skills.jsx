@@ -27,7 +27,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="relative border-l border-gunmetal pb-6 pl-6">
+    <div className="relative pb-6 md:border-l md:border-gunmetal md:pl-6">
       <Circle />
       <h2 className="title-h2 mb-4">Skills</h2>
       <div className="flex gap-3">

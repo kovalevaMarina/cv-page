@@ -5,7 +5,7 @@ const SocialItem = ({ socialName, link, linkHref, icon, colorClass }) => {
     <li className="mb-3 flex items-center">
       <div className={`mr-5 rounded-full ${colorClass} p-2`}>{icon}</div>
       <div>
-        <h4 className="title-h4">{socialName}</h4>
+        <h5 className="title-h5">{socialName}</h5>
         <a
           className="font-dmsans text-xs font-medium text-gainsboro"
           href={linkHref}

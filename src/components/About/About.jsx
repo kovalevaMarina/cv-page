@@ -17,7 +17,7 @@ const About = () => {
       <p className="text-md mt-1 mb-4 bg-gradient-to-r from-floral to-ultramarine-blue bg-clip-text font-outfit font-medium tracking-[.01em] text-transparent">
         Front-End Developer
       </p>
-      <p className="font-normally mb-0.5 text-xs leading-5  text-gainsboro">
+      <p className="font-normally mb-0.5 text-xs leading-5 text-gainsboro">
         I am looking for a full-time job as a Trainee/Junior Front-End
         Developer. I have ambition to qualify as a professional software
         developer. I am motivated to continue to grow professionally and

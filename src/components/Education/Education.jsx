@@ -35,7 +35,7 @@ const education = [
 
 const Education = () => {
   return (
-    <div className="relative border-l border-gunmetal pb-6 pl-6">
+    <div className="relative pb-6 md:border-l md:border-gunmetal md:pl-6">
       <Circle />
       <h2 className="title-h2 mb-4">Education</h2>
       <div className="grid max-w-[346px] grid-cols-3 gap-1">

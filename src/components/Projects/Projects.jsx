@@ -1,6 +1,4 @@
 import React from "react";
-import Figma from "../Icons/FigmaLogo";
-import Link from "../Icons/LinkSimple";
 import ProjectItem from "./ProjectItem";
 import { project_figma, project_shop } from "../helper/images";
 import Circle from "../Icons/Circle";
@@ -8,28 +6,26 @@ import Circle from "../Icons/Circle";
 const projects = [
   {
     img: project_figma,
-    title: "Poweful Design System",
+    title: "Batut - Challenge Everything",
     description:
-      "Figma UI Kit and Design System targeting a wide variety of use cases.",
-    icon: <Figma />,
-    link: "https//figma.com",
+      "Personal pet project for making new habits. Choose from the existing list of challenges and start doing it!",
+    link: "https://batut.pp.ua/",
   },
   {
     img: project_shop,
-    title: "Modern Website",
+    title: "Modern Shop Website",
     description:
-      "Powerful website + dashboard template for your next Chakra UI project.",
-    icon: <Link className="fill-jordy-blue" />,
-    link: "https://ui-8.net",
+      "The Store website for buying things online + the ability to add products to the cart.",
+    link: "https://kovalevaMarina.github.io/web-store-components/",
   },
 ];
 
 const Projects = () => {
   return (
-    <div className="relative border-l border-gunmetal pb-6 pl-6">
+    <div className="relative pb-6 md:border-l md:border-gunmetal md:pl-6">
       <Circle />
       <h2 className="title-h2 mb-4">Latest projects</h2>
-      <div className="flex gap-1">
+      <div className="flex flex-col gap-2 md:flex-row">
         {projects.map((project, index) => (
           <ProjectItem key={index} {...project} />
         ))}

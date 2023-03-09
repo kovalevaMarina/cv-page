@@ -18,7 +18,7 @@ function App() {
           <Socials />
           <Langueges />
         </aside>
-        <main className="py-9 pl-4 pr-6">
+        <main className="py-9 md:pl-4 md:pr-6">
           <Projects />
           <Experience />
           <Education />

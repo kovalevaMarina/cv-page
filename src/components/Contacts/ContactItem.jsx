@@ -5,7 +5,7 @@ const ContactItem = ({ title, text, icon }) => {
     <li className="mb-3 flex items-center">
       <div className="mr-5 rounded-full bg-gunmetal p-2">{icon}</div>
       <div>
-        <h4 className="title-h4">{title}</h4>
+        <h5 className="title-h5">{title}</h5>
         <a className="font-dmsans text-xs font-medium text-gainsboro" href="#">
           {text}
         </a>

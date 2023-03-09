@@ -20,7 +20,7 @@ const langueges = [
 const Langueges = () => {
   return (
     <div className="border-t border-solid border-gunmetal pt-4">
-      <h4 className="title-h4 mb-3">Languages</h4>
+      <h5 className="title-h5 mb-3">Languages</h5>
       <ul>
         {langueges.map((languege, index) => (
           <LanguegeItem key={index} {...languege} />
