@@ -11,18 +11,18 @@ const ExperienceItem = ({
 }) => {
   return (
     <div className="mb-5 flex flex-col justify-between border-b border-gunmetal pl-1 pb-5 last:mb-0 md:mb-2 md:flex-row md:border-b-0 md:pb-0">
-      <div className="mb-2 md:mb-0 md:basis-2/4">
-        <div className="mb-2 flex items-center">
-          <div className="nd:relative block h-1 w-1 rounded-full bg-crayola md:-left-[2px]"></div>
-          <time className="title-h5 pl-2">{period}</time>
+      <div className="mb-3 md:mb-0 md:basis-2/4">
+        <div className="mb-4 flex items-center">
+          <div className="block h-1 w-1 rounded-full bg-crayola md:relative md:-left-[2px]"></div>
+          <time className="title-h5 pl-3">{period}</time>
           <div className="ml-3 flex items-center">
             {icon}
             <p className="title-h5 ml-1">{place}</p>
           </div>
         </div>
 
-        <div className="flex items-center pl-2 md:border-l md:border-gunmetal">
-          <div className="mr-3 flex h-11 w-12 items-center justify-center rounded bg-green-100">
+        <div className="flex items-center pl-3 md:border-l md:border-gunmetal">
+          <div className="mr-4 flex h-11 w-12 items-center justify-center rounded bg-green-100">
             <img src={iconCompany} alt="" />
           </div>
           <div>
@@ -31,8 +31,8 @@ const ExperienceItem = ({
           </div>
         </div>
       </div>
-      <div className="pl-2 md:basis-2/4">
-        <p className="font-dmsans text-xs font-normal text-crayola">
+      <div className="pl-3 md:basis-2/4">
+        <p className="font-dmsans text-xs font-normal text-crayola md:text-sm">
           {responsibility}
         </p>
       </div>

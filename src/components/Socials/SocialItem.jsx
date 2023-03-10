@@ -7,7 +7,7 @@ const SocialItem = ({ socialName, link, linkHref, icon, colorClass }) => {
       <div>
         <h5 className="title-h5">{socialName}</h5>
         <a
-          className="font-dmsans text-xs font-medium text-gainsboro"
+          className="font-dmsans text-xs font-medium text-gainsboro transition-all hover:text-floral md:text-sm"
           href={linkHref}
           target="_blank"
         >

@@ -28,10 +28,10 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="pb-6 md:relative md:border-l md:border-gunmetal md:pl-6">
+    <div className="pb-6 lg:relative lg:border-l lg:border-gunmetal lg:pb-8 lg:pl-10">
       <Circle />
       <h2 className="title-h2 mb-4">Skills</h2>
-      <div className="flex flex-col gap-3 md:flex-row">
+      <div className="flex flex-col gap-3 sm:flex-row">
         {skills.map((skill, i) => (
           <SkillItem key={`${skill.title}-${i}`} {...skill} />
         ))}

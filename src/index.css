@@ -17,9 +17,9 @@ body {
 }
 
 .title-h4 {
-  @apply font-dmsans text-xs font-medium;
+  @apply font-dmsans text-xs md:text-sm font-medium;
 }
 
 .title-h5 {
-  @apply font-dmsans font-normal text-xs text-crayola;
+  @apply font-dmsans font-normal text-xs md:text-sm text-crayola;
 }

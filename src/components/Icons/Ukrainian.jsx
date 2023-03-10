@@ -6,7 +6,7 @@ export function Ukrainian(props) {
       xmlns="http://www.w3.org/2000/svg"
       width="1.89em"
       height="1em"
-      viewBox="0 0 301 180"
+      viewBox="0 0 300 159"
       {...props}
     >
       <g fill="none">

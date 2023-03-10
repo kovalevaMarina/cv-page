@@ -23,26 +23,26 @@ const SkillItem = ({
             key={i}
             className={` ${
               i === 0 ? "rounded-tl" : "rounded-tr"
-            } bg-gunmetal py-3 px-2 font-dmsans text-xs font-medium`}
+            } bg-gunmetal py-3 px-2 font-dmsans text-xs font-medium md:py-5 md:px-4 md:text-sm`}
           >
             {elem}
           </p>
         ))}
-        <div className="col-span-2 flex justify-between divide-x divide-white divide-opacity-10 bg-gunmetal py-3 px-2">
+        <div className="col-span-2 flex justify-between divide-x divide-white divide-opacity-10 bg-gunmetal py-3 px-2 md:py-5 md:px-4">
           {secondLine.map((elem, i) => (
             <p
               key={i}
-              className="basis-2/4 py-1 font-dmsans text-xs font-medium"
+              className="basis-2/4 py-1 font-dmsans text-xs font-medium md:text-sm"
             >
               {elem}
             </p>
           ))}
         </div>
-        <div className="col-span-2 flex justify-between divide-x divide-white divide-opacity-10 rounded-b bg-gunmetal py-3 px-2">
+        <div className="col-span-2 flex justify-between divide-x divide-white divide-opacity-10 rounded-b bg-gunmetal py-3 px-2 md:py-5 md:px-4">
           {thirdLine.map((elem, i) => (
             <p
               key={i}
-              className="basis-1/3 py-1 font-dmsans text-xs font-medium"
+              className="basis-1/3 py-1 font-dmsans text-xs font-medium md:text-sm"
             >
               {elem}
             </p>

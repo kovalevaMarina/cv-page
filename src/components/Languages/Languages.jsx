@@ -7,13 +7,13 @@ const langueges = [
   {
     languege: "English",
     proficiencyLevel: "Intermediate",
-    flag: <English className="h-full w-full rounded-lg" />,
+    flag: <English className="h-full w-full" />,
   },
 
   {
     languege: "Ukrainian",
     proficiencyLevel: "Native",
-    flag: <Ukrainian className="h-full w-full rounded-lg" />,
+    flag: <Ukrainian className="h-full w-full" />,
   },
 ];
 

@@ -19,7 +19,7 @@ const experience = [
 
 const Experience = () => {
   return (
-    <div className="pb-6 md:relative md:border-l md:border-gunmetal md:pl-6">
+    <div className="pb-6 md:pb-8 lg:relative lg:border-l lg:border-gunmetal lg:pl-10 lg:pb-8">
       <Circle />
       <h2 className="title-h2 mb-4">Experience</h2>
       <div>

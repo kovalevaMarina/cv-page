@@ -24,7 +24,7 @@ const socials = [
   },
 
   {
-    socialName: "Gitgub",
+    socialName: "GitHub",
     link: "@kovalevaMarina",
     linkHref: "https://github.com/kovalevaMarina",
     icon: <Gitgub className="h-5 w-5" />,
