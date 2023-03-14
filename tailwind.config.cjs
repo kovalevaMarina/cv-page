@@ -21,6 +21,10 @@ module.exports = {
         'violet': '#5531A7',
         'cosmic-cobalt': '#2A337E',
       },
+
+      boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+      }
     },
 
     typography: {
