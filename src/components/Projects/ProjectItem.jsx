@@ -23,6 +23,7 @@ const ProjectItem = ({ img, title, description, link }) => {
           <a
             className="font-dmsans text-xs font-medium text-jordy-blue transition-all hover:opacity-70 "
             href={link}
+            target="_blank"
           >
             {link}
           </a>
