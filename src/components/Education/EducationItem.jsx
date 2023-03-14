@@ -2,10 +2,10 @@ import React from "react";
 
 const EducationItem = ({ images, organization, course, period }) => {
   return (
-    <div className="flex flex-col justify-between rounded bg-gunmetal py-6 px-5">
+    <div className="flex flex-col justify-between rounded bg-gunmetal p-5 sm:py-6">
       <div className="mb-3 flex items-center gap-4">
-        <div className="basis-1/4">
-          <img className="" src={images} alt={`Logo ${course}`} />
+        <div>
+          <img className="w-24" src={images} alt={`Logo ${course}`} />
         </div>
         <h5 className="basis-3/4 font-dmsans text-xs font-normal text-azureish-white md:text-sm">
           {organization}
