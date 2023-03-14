@@ -17,33 +17,29 @@ const SkillItem = ({
           {title}
         </h3>
       </div>
-      <div className={`grid grid-cols-2 gap-1 text-center ${colorTextClass}`}>
+      <div
+        className={`grid grid-cols-2 gap-1 text-center ${colorTextClass} font-dmsans text-xs font-medium md:text-sm`}
+      >
         {firstLine.map((elem, i) => (
           <p
             key={i}
             className={` ${
               i === 0 ? "rounded-tl" : "rounded-tr"
-            } bg-gunmetal py-3 px-2 font-dmsans text-xs font-medium md:py-5 md:px-4 md:text-sm`}
+            } bg-gunmetal py-3 px-2 md:py-5 md:px-4 `}
           >
             {elem}
           </p>
         ))}
         <div className="col-span-2 flex justify-between divide-x divide-white divide-opacity-10 bg-gunmetal py-3 px-2 md:py-5 md:px-4">
           {secondLine.map((elem, i) => (
-            <p
-              key={i}
-              className="basis-2/4 py-1 font-dmsans text-xs font-medium md:text-sm"
-            >
+            <p key={i} className="basis-2/4 py-1">
               {elem}
             </p>
           ))}
         </div>
         <div className="col-span-2 flex justify-between divide-x divide-white divide-opacity-10 rounded-b bg-gunmetal py-3 px-2 md:py-5 md:px-4">
           {thirdLine.map((elem, i) => (
-            <p
-              key={i}
-              className="basis-1/3 py-1 font-dmsans text-xs font-medium md:text-sm"
-            >
+            <p key={i} className="basis-1/3 py-1">
               {elem}
             </p>
           ))}
