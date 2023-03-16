@@ -4,12 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-yankees-blue;
-}
-
 .title-h2 {
-  @apply font-outfit text-xl font-medium text-azureish-white;
+  @apply font-outfit text-xl font-medium dark:text-azureish-white text-gunmetal;
 }
 
 .title-h3 {
@@ -21,5 +17,5 @@ body {
 }
 
 .title-h5 {
-  @apply font-dmsans font-normal text-xs md:text-sm text-crayola;
+  @apply font-dmsans font-normal text-xs md:text-sm text-waterloo dark:text-crayola;
 }

@@ -22,7 +22,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="pb-6 md:pb-8 lg:relative lg:border-l lg:border-gunmetal lg:pl-10 lg:pb-8">
+    <div className="pb-6 md:pb-8 lg:relative lg:border-l lg:border-azureish-white lg:pl-10 lg:pb-8 dark:lg:border-gunmetal">
       <Circle />
       <h2 className="title-h2 mb-4">Latest projects</h2>
       <div className="flex flex-col gap-2 sm:flex-row">

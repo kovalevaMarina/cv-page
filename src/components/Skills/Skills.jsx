@@ -11,8 +11,8 @@ const skills = [
     secondLine: ["VS Code", "Figma"],
     thirdLine: ["jQuery", "Pug", "Bootstrap"],
     colorTextClass: "text-pale-violet",
-    icon: <Tools className="h-4 w-4 fill-pale-violet" />,
-    iconBg: "bg-violet",
+    icon: <Tools className="h-4 w-4 fill-violet dark:fill-pale-violet" />,
+    iconBg: "dark:bg-violet bg-pale-violet",
   },
 
   {
@@ -21,14 +21,16 @@ const skills = [
     secondLine: ["Vite", "Webpack"],
     thirdLine: ["HTML", "CSS/SCSS", "JS"],
     colorTextClass: "text-jordy-blue",
-    icon: <AngleBrackets className="h-4 w-4 fill-jordy-blue" />,
-    iconBg: "bg-cosmic-cobalt",
+    icon: (
+      <AngleBrackets className="h-4 w-4 fill-cosmic-cobalt dark:fill-jordy-blue" />
+    ),
+    iconBg: "dark:bg-cosmic-cobalt bg-jordy-blue",
   },
 ];
 
 const Skills = () => {
   return (
-    <div className="pb-6 lg:relative lg:border-l lg:border-gunmetal lg:pb-8 lg:pl-10">
+    <div className="pb-6 lg:relative lg:border-l lg:border-azureish-white lg:pb-8 lg:pl-10 dark:lg:border-gunmetal">
       <Circle />
       <h2 className="title-h2 mb-4">Skills</h2>
       <div className="flex flex-col gap-3 sm:flex-row">

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -20,6 +21,10 @@ module.exports = {
         'cobalt': '#2A337E',
         'violet': '#5531A7',
         'cosmic-cobalt': '#2A337E',
+        'fiord': '#47516B',
+        'waterloo': '#79819A',
+        'white-lilac': '#F7F9FC',
+        'hawkes-blue': '#E1E7FE',
       },
 
       boxShadow: {

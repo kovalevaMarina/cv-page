@@ -17,7 +17,9 @@ const contacts = [
     title: "Website",
     text: "https://aldesign.it",
     linkHref: "https://aldesign.it",
-    icon: <LinkSimple className="h-5 w-5 fill-azureish-white" />,
+    icon: (
+      <LinkSimple className="h-5 w-5 fill-waterloo dark:fill-azureish-white" />
+    ),
   },
 
   {
@@ -37,7 +39,7 @@ const contacts = [
 
 const Contacts = () => {
   return (
-    <div className="mb-4 border-t border-solid border-gunmetal pt-4">
+    <div className="mb-4 border-t border-solid border-azureish-white pt-4 dark:border-gunmetal">
       <ul>
         {contacts.map((contact, index) => (
           <ContactItem key={index} {...contact} />
