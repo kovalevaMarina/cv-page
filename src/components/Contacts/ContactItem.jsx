@@ -9,7 +9,7 @@ const ContactItem = ({ title, text, linkHref, icon }) => {
       <div>
         <h5 className="title-h5">{title}</h5>
         <a
-          className="font-dmsans text-xs font-medium text-fiord transition-all hover:text-floral dark:text-gainsboro md:text-sm"
+          className="font-dmsans text-xs font-medium text-fiord transition-all hover:text-floral dark:text-gainsboro dark:hover:text-floral md:text-sm"
           href={linkHref}
           target="_blank"
         >
