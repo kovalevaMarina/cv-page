@@ -26,7 +26,7 @@ const About = () => {
       <div className="mb-5">
         <a
           className="block max-w-xs rounded-md border-2 border-floral py-3 px-4 text-center text-base tracking-wide text-fiord transition-transform hover:border-slate-400 hover:bg-gradient-to-r hover:from-floral hover:to-ultramarine-blue hover:text-azureish-white dark:text-crayola"
-          href="/CV_Junior_Frontend_Kovaleva.pdf"
+          href="./CV_Junior_Frontend_Kovaleva.pdf"
           target="_blank"
         >
           Download CV .pdf

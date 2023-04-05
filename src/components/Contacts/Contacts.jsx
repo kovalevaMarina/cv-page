@@ -15,8 +15,8 @@ const contacts = [
 
   {
     title: "Website",
-    text: "https://aldesign.it",
-    linkHref: "https://aldesign.it",
+    text: "http://kovalevamarina.com/",
+    linkHref: "http://kovalevamarina.com/",
     icon: (
       <LinkSimple className="h-5 w-5 fill-waterloo dark:fill-azureish-white" />
     ),
