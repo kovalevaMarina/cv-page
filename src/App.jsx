@@ -8,7 +8,7 @@ import Projects from "./components/Projects/Projects";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Skills from "./components/Skills/Skills";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 
 function App() {
   const [darkMode, setDarkMode] = useState(undefined);
