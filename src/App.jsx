@@ -11,15 +11,28 @@ import Skills from "./components/Skills/Skills";
 import Header from "./components/Header";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(undefined);
 
   useEffect(() => {
-    if (darkMode === true) {
+    if (darkMode) {
+      localStorage.setItem("darkMode", "true");
       document.documentElement.classList.add("dark");
-    } else {
+    } else if (darkMode === false) {
+      localStorage.setItem("darkMode", "false");
       document.documentElement.classList.remove("dark");
+    } else {
+      setDarkMode(localStorage.getItem("darkMode") === "true");
     }
   }, [darkMode]);
+
+  const onloadPage = () => {
+    document.html.classList.toggle(
+      "darkMode",
+      localStorage.getItem("darkMode") === "true"
+    );
+  };
+
+  document.addEventListener("DOMContentLoaded", onloadPage);
 
   return (
     <div className="App">
