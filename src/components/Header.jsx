@@ -6,7 +6,7 @@ const Header = ({ darkMode, setDarkMode }) => {
   const toggleDarkMode = () => setDarkMode(!darkMode);
 
   return (
-    <div className="flex justify-end py-2">
+    <div className="flex justify-end py-2 lg:pr-6">
       <button
         onClick={toggleDarkMode}
         className="rounded-lg p-1 transition-all hover:bg-azureish-white dark:hover:bg-gunmetal"
