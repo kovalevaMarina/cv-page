@@ -8,28 +8,26 @@ import Projects from "./components/Projects/Projects";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Skills from "./components/Skills/Skills";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(undefined);
+  const [darkMode, setDarkMode] = useState(
+    localStorage.getItem("darkMode") === "true"
+  );
 
   useEffect(() => {
     if (darkMode) {
       localStorage.setItem("darkMode", "true");
       document.documentElement.classList.add("dark");
-    } else if (darkMode === false) {
+    } else {
       localStorage.setItem("darkMode", "false");
       document.documentElement.classList.remove("dark");
-    } else {
-      setDarkMode(localStorage.getItem("darkMode") === "true");
+      setDarkMode(false);
     }
   }, [darkMode]);
 
   const onloadPage = () => {
-    document.html.classList.toggle(
-      "darkMode",
-      localStorage.getItem("darkMode") === "true"
-    );
+    document.html.classList.toggle("darkMode", false);
   };
 
   document.addEventListener("DOMContentLoaded", onloadPage);
