@@ -3,18 +3,20 @@ import Link from "../Icons/LinkSimple";
 
 const ProjectItem = ({ img, title, description, link }) => {
   return (
-    <div className="flex w-full flex-col rounded-md bg-white-lilac dark:bg-gunmetal md:w-1/2">
-      <img
-        className="w-full rounded-t-md object-fill"
-        src={img}
-        alt={`Image project ${title}`}
-      />
-      <div className="flex flex-grow flex-col justify-between py-4 px-5">
+    <div className="carousel-item w-full flex-col rounded-md bg-white-lilac dark:bg-gunmetal sm:w-2/3 md:w-2/5">
+      <div className="flex items-center justify-center overflow-hidden">
+        <img
+          className="block h-auto max-w-full rounded-t-md align-middle"
+          src={img}
+          alt={`Image project ${title}`}
+        />
+      </div>
+      <div className="flex shrink grow basis-auto flex-col justify-between gap-4 py-4 px-5">
         <div>
-          <h3 className="title-h3 mb-2 text-gunmetal dark:text-azureish-white">
+          <h3 className="title-h3 mb-3 text-gunmetal dark:text-azureish-white">
             {title}
           </h3>
-          <p className="mb-3 font-dmsans text-xs font-normal leading-5 text-waterloo dark:text-crayola">
+          <p className="font-dmsans text-xs font-normal leading-5 text-waterloo dark:text-crayola">
             {description}
           </p>
         </div>

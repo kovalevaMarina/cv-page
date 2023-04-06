@@ -10,7 +10,7 @@ const ExperienceItem = ({
   responsibility,
 }) => {
   return (
-    <div className="mb-5 flex flex-col justify-between border-b border-gunmetal pl-1 pb-5 last:mb-0 md:mb-2 md:flex-row md:border-b-0 md:pb-0">
+    <div className="mb-5 flex flex-col justify-between pl-1 pb-5 last:mb-0 md:mb-2 md:flex-row md:border-b-0 md:pb-0">
       <div className="mb-3 md:mb-0 md:basis-2/4">
         <div className="mb-4 flex items-center">
           <div className="block h-1 w-1 rounded-full bg-gunmetal dark:bg-crayola md:relative md:-left-[2px]"></div>
@@ -23,7 +23,7 @@ const ExperienceItem = ({
           </div>
         </div>
 
-        <div className="flex items-center pl-3 md:border-l md:border-white-lilac dark:md:border-gunmetal">
+        <div className="flex items-center border-l border-azureish-white pl-3 dark:border-gunmetal">
           <div className="mr-4 flex h-11 w-12 items-center justify-center rounded bg-green-100">
             <img src={iconCompany} alt={`Logo ${company} company`} />
           </div>
