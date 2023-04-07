@@ -14,8 +14,17 @@ const education = [
   {
     images: hillel,
     organization: "Hillel IT school",
-    course: "Front-End Basic, Front-End Pro",
-    period: "November - September, 2022",
+    course: "Front-End Basic",
+    period: "November, 2021 - February, 2022",
+    linkCertificate: "./61510616_en_hillelbasic.pdf",
+  },
+
+  {
+    images: hillel,
+    organization: "Hillel IT school",
+    course: "Front-End Pro",
+    period: "April - September, 2022",
+    linkCertificate: "./93229650_en_hillelpro.pdf",
   },
 
   {
@@ -23,6 +32,7 @@ const education = [
     organization: "ITVDN - IT Video Developers Network",
     course: "Java Script Starter",
     period: "April, 2022",
+    linkCertificate: "./itvdn_javascript_starter.pdf",
   },
 
   {
@@ -30,6 +40,7 @@ const education = [
     organization: "Udemy",
     course: "React - Повний курс по React",
     period: "January - February, 2023",
+    linkCertificate: "./itvdn_javascript_starter.pdf",
   },
 ];
 

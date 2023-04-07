@@ -19,3 +19,4 @@
 .title-h5 {
   @apply font-dmsans font-normal text-xs md:text-sm text-waterloo dark:text-crayola;
 }
+
