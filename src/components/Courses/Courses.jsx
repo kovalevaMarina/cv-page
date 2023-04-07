@@ -1,14 +1,14 @@
 import React from "react";
-import EducationItem from "./EducationItem";
+import CoursesItem from "./CoursesItem";
 import { coursera, hillel, itvdn, udemy } from "../helper/images";
 import Circle from "../Icons/Circle";
 
-const education = [
+const courses = [
   {
     images: coursera,
     organization: "Coursera",
     course: "Introduction to Git and GitHub",
-    period: "Octobre, 2021",
+    period: "October, 2021",
   },
 
   {
@@ -40,22 +40,22 @@ const education = [
     organization: "Udemy",
     course: "React - Повний курс по React",
     period: "January - February, 2023",
-    linkCertificate: "./itvdn_javascript_starter.pdf",
+    linkCertificate: "./Udemy_React.pdf",
   },
 ];
 
-const Education = () => {
+const Courses = () => {
   return (
     <div className="pb-6 lg:relative lg:border-l lg:border-azureish-white lg:pl-10 lg:pb-8 dark:lg:border-gunmetal">
       <Circle />
-      <h2 className="title-h2 mb-4">Education</h2>
+      <h2 className="title-h2 mb-4">Courses</h2>
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-3">
-        {education.map((item, index) => (
-          <EducationItem key={index} {...item} />
+        {courses.map((item, index) => (
+          <CoursesItem key={index} {...item} />
         ))}
       </div>
     </div>
   );
 };
 
-export default Education;
+export default Courses;

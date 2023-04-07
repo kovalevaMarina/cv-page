@@ -5,7 +5,7 @@ import Contacts from "./components/Contacts/Contacts";
 import Socials from "./components/Socials/Socials";
 import Langueges from "./components/Languages/Languages";
 import Projects from "./components/Projects/Projects";
-import Education from "./components/Education/Education";
+import Courses from "./components/Courses/Courses";
 import Experience from "./components/Experience/Experience";
 import Skills from "./components/Skills/Skills";
 import Header from "./components/Header/Header";
@@ -46,7 +46,7 @@ function App() {
           <main className="py-9 lg:pl-10 lg:pr-6">
             <Projects />
             <Experience />
-            <Education />
+            <Courses />
             <Skills />
           </main>
         </div>

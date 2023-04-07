@@ -1,7 +1,7 @@
 import React from "react";
 import OpenIcon from "../Icons/OpenIcon";
 
-const EducationItem = ({
+const CoursesItem = ({
   images,
   organization,
   course,
@@ -38,4 +38,4 @@ const EducationItem = ({
   );
 };
 
-export default EducationItem;
+export default CoursesItem;
