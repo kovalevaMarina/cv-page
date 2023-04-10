@@ -15,8 +15,8 @@ const contacts = [
 
   {
     title: "Website",
-    text: "http://kovalevamarina.com/",
-    linkHref: "http://kovalevamarina.com/",
+    text: "https://kovalevamarina.com/",
+    linkHref: "https://kovalevamarina.com/",
     icon: (
       <LinkSimple className="h-5 w-5 fill-waterloo dark:fill-azureish-white" />
     ),
@@ -24,8 +24,8 @@ const contacts = [
 
   {
     title: "Phone",
-    text: "(063) 599 65 71",
-    linkHref: "tel:0635996571",
+    text: "+38 (063) 599 65 71",
+    linkHref: "tel:+380635996571",
     icon: <Phone className="h-5 w-5" />,
   },
 
