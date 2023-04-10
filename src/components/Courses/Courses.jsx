@@ -30,7 +30,7 @@ const courses = [
   {
     images: itvdn,
     organization: "ITVDN - IT Video Developers Network",
-    course: "Java Script Starter",
+    course: "JavaScript Starter",
     period: "April, 2022",
     linkCertificate: "./itvdn_javascript_starter.pdf",
   },
