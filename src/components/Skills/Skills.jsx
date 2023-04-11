@@ -30,7 +30,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="pb-6 lg:relative lg:border-l lg:border-azureish-white lg:pb-8 lg:pl-10 dark:lg:border-gunmetal">
+    <section className="pb-6 xl:relative xl:border-l xl:border-azureish-white xl:pb-8 xl:pl-10 dark:xl:border-gunmetal">
       <Circle />
       <h2 className="title-h2 mb-4">Skills</h2>
       <div className="flex flex-col gap-3 sm:flex-row">

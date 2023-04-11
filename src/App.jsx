@@ -36,14 +36,14 @@ function App() {
     <div className="App">
       <div className="container mx-auto px-4">
         <Header darkMode={darkMode} setDarkMode={setDarkMode} />
-        <div className="flex flex-col justify-center lg:flex-row">
-          <aside className="lg:mr-5">
+        <div className="flex flex-col justify-center xl:flex-row xl:gap-6">
+          <aside>
             <About />
             <Contacts />
             <Socials />
             <Langueges />
           </aside>
-          <main className="py-9 lg:pl-10 lg:pr-6">
+          <main className="py-9 xl:pl-10">
             <Projects />
             <Experience />
             <Courses />

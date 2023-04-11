@@ -33,7 +33,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="pb-6 md:pb-8 lg:relative lg:border-l lg:border-azureish-white lg:pl-10 lg:pb-8 dark:lg:border-gunmetal">
+    <section className="pb-6 md:pb-8 xl:relative xl:border-l xl:border-azureish-white xl:pl-10 xl:pb-8 dark:xl:border-gunmetal">
       <Circle />
       <h2 className="title-h2 mb-4">Latest projects</h2>
       <div className="carousel-center carousel gap-2">
