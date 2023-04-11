@@ -3,7 +3,7 @@ import { photo } from "../helper/images";
 
 const About = () => {
   return (
-    <div className="mb-4">
+    <section className="mb-4">
       <div className="h-30 mb-5 max-w-sm">
         <img
           className="w-full bg-no-repeat"
@@ -28,14 +28,14 @@ const About = () => {
       </p>
       <div className="mb-5">
         <a
-          className="block max-w-xs rounded-md border-2 border-floral py-3 px-4 text-center text-base tracking-wide text-fiord transition-transform hover:border-slate-400 hover:bg-gradient-to-r hover:from-floral hover:to-ultramarine-blue hover:text-azureish-white dark:text-crayola"
+          className="block max-w-xs rounded-md border-2 border-floral py-3 px-4 text-center text-base tracking-wide text-fiord transition-all hover:border-slate-400 hover:bg-gradient-to-r hover:from-floral hover:to-ultramarine-blue hover:text-azureish-white dark:text-crayola dark:hover:text-azureish-white"
           href="./CV_Junior_Frontend_Kovaleva.pdf"
           target="_blank"
         >
           Download CV .pdf
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

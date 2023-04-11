@@ -19,7 +19,7 @@ const experience = [
 
 const Experience = () => {
   return (
-    <div className="pb-6 md:pb-8 lg:relative lg:border-l lg:border-azureish-white lg:pl-10 lg:pb-8 dark:lg:border-gunmetal">
+    <section className="pb-6 md:pb-8 lg:relative lg:border-l lg:border-azureish-white lg:pl-10 lg:pb-8 dark:lg:border-gunmetal">
       <Circle />
       <h2 className="title-h2 mb-4">Experience</h2>
       <div>
@@ -27,7 +27,7 @@ const Experience = () => {
           <ExperienceItem key={index} {...item} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

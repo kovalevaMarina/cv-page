@@ -30,7 +30,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="pb-6 lg:relative lg:border-l lg:border-azureish-white lg:pb-8 lg:pl-10 dark:lg:border-gunmetal">
+    <section className="pb-6 lg:relative lg:border-l lg:border-azureish-white lg:pb-8 lg:pl-10 dark:lg:border-gunmetal">
       <Circle />
       <h2 className="title-h2 mb-4">Skills</h2>
       <div className="flex flex-col gap-3 sm:flex-row">
@@ -38,7 +38,7 @@ const Skills = () => {
           <SkillItem key={`${skill.title}-${i}`} {...skill} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

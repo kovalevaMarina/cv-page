@@ -50,14 +50,14 @@ const socials = [
 
 const Socials = () => {
   return (
-    <div className="mb-4 border-t border-solid border-azureish-white pt-4 dark:border-gunmetal">
+    <section className="mb-4 border-t border-solid border-azureish-white pt-4 dark:border-gunmetal">
       <h5 className="title-h5 mb-3">Socials</h5>
       <ul>
         {socials.map((social, index) => (
           <SocialItem key={index} {...social} />
         ))}
       </ul>
-    </div>
+    </section>
   );
 };
 

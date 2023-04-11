@@ -39,13 +39,13 @@ const contacts = [
 
 const Contacts = () => {
   return (
-    <div className="mb-4 border-t border-solid border-azureish-white pt-4 dark:border-gunmetal">
+    <section className="mb-4 border-t border-solid border-azureish-white pt-4 dark:border-gunmetal">
       <ul>
         {contacts.map((contact, index) => (
           <ContactItem key={index} {...contact} />
         ))}
       </ul>
-    </div>
+    </section>
   );
 };
 
