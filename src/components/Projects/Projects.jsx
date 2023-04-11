@@ -6,6 +6,7 @@ import {
   project_burder_factory,
 } from "../helper/images";
 import Circle from "../Icons/Circle";
+import ArrowRight from "../Icons/ArrowRight";
 
 const projects = [
   {
@@ -35,7 +36,13 @@ const Projects = () => {
   return (
     <section className="pb-6 md:pb-8 xl:relative xl:border-l xl:border-azureish-white xl:pl-10 xl:pb-8 dark:xl:border-gunmetal">
       <Circle />
-      <h2 className="title-h2 mb-4">Latest projects</h2>
+      <div className="flex items-center justify-between">
+        <h2 className="title-h2 mb-4">Latest projects</h2>
+        <div className="flex w-24 justify-between">
+          <p className="anim text-xs text-waterloo">scroll right</p>
+          <ArrowRight />
+        </div>
+      </div>
       <div className="carousel-center carousel gap-2">
         {projects.map((project, index) => (
           <ProjectItem key={index} {...project} />
