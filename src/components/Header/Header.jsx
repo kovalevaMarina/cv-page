@@ -7,7 +7,7 @@ const Header = ({ darkMode, setDarkMode }) => {
 
   return (
     <div className="flex justify-center py-5 lg:justify-end lg:pr-6">
-      <label className="swap-rotate swap">
+      <label className="swap-rotate swap rounded-lg p-1 transition duration-200 hover:bg-white-lilac dark:hover:bg-gunmetal">
         <input type="checkbox" onClick={toggleDarkMode} />
         <svg
           className="swap-on h-7 w-7 fill-crayola"
