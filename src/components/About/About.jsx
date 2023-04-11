@@ -4,17 +4,20 @@ import { photo } from "../helper/images";
 const About = () => {
   return (
     <div className="mb-4">
-      <div className="h-30 mb-4 max-w-sm">
+      <div className="h-30 mb-5 max-w-sm">
         <img
           className="w-full bg-no-repeat"
           src={photo}
           alt="Marina Kovaleva"
         />
       </div>
-      <h1 className="mb-2 font-outfit text-2xl font-medium leading-5 text-black dark:text-azureish-white">
+      <p className="text-md mb-1 font-outfit font-bold tracking-wide text-black dark:text-gainsboro">
+        Hi, I'm{" "}
+      </p>
+      <h1 className="mb-1 font-outfit text-2xl font-medium leading-5 tracking-wider text-black dark:text-azureish-white">
         Marina Kovaleva
       </h1>
-      <p className="text-md mb-4 bg-gradient-to-r from-floral to-ultramarine-blue bg-clip-text font-outfit font-medium tracking-[.01em] text-transparent">
+      <p className="text-md mb-5 bg-gradient-to-r from-floral to-ultramarine-blue bg-clip-text font-outfit font-medium tracking-[.01em] text-transparent">
         Front-End Developer
       </p>
       <p className="font-normally mb-5 text-xs leading-5 text-fiord dark:text-gainsboro">
