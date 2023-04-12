@@ -50,7 +50,7 @@ const socials = [
 
 const Socials = () => {
   return (
-    <section className="mb-4 border-t border-solid border-azureish-white pt-4 dark:border-gunmetal">
+    <section className="mb-4 border-b border-solid border-azureish-white pb-4 dark:border-gunmetal md:border-transparent dark:md:border-transparent xl:border-azureish-white dark:xl:border-gunmetal">
       <h5 className="title-h5 mb-3">Socials</h5>
       <ul>
         {socials.map((social, index) => (

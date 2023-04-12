@@ -19,7 +19,7 @@ const langueges = [
 
 const Langueges = () => {
   return (
-    <section className="border-t border-solid border-azureish-white pt-4 dark:border-gunmetal">
+    <section>
       <h5 className="title-h5 mb-3">Languages</h5>
       <ul>
         {langueges.map((languege, index) => (

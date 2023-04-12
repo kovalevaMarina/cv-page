@@ -39,9 +39,11 @@ function App() {
         <div className="flex flex-col justify-center xl:flex-row xl:gap-6">
           <aside>
             <About />
-            <Contacts />
-            <Socials />
-            <Langueges />
+            <div className="md:flex md:justify-between xl:flex-col">
+              <Contacts />
+              <Socials />
+              <Langueges />
+            </div>
           </aside>
           <main className="py-9 xl:pl-10">
             <Projects />
