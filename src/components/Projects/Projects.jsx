@@ -13,7 +13,18 @@ const projects = [
     img: project_batut,
     title: "Batut - Challenge Everything",
     description:
-      "Personal pet project for making new habits. Choose from the existing list of challenges and start doing it!",
+      "Personal pet project for making new habits. Providing challenge programs, telegram button for sing up and log in on personal profile, get a notification in telegram bot, keep track of the statistics of each challenges.",
+    tools: [
+      "React",
+      "React Context & Hooks",
+      "React Router",
+      "Vite",
+      "JavaScript",
+      "SCSS",
+      "Eslint",
+      "Fetch API",
+      "Chart.js",
+    ],
     link: "https://batut.pp.ua/",
   },
   {
@@ -21,6 +32,14 @@ const projects = [
     title: "Burger Factory",
     description:
       "Personal pet project for making new habits. Choose from the existing list of challenges and start doing it!",
+    tools: [
+      "React",
+      "React Router & Hooks",
+      "Vite",
+      "JavaScript",
+      "Tailwind",
+      "DaisyUI",
+    ],
     link: "https://kovalevamarina.github.io/burger-factory/",
   },
   {
@@ -28,6 +47,14 @@ const projects = [
     title: "Modern Shop Website",
     description:
       "The Store website for buying things online + the ability to add products to the cart.",
+    tools: [
+      "React",
+      "React Context & Hooks",
+      "React Router",
+      "Webpack",
+      "JavaScript",
+      "SCSS",
+    ],
     link: "https://kovalevaMarina.github.io/web-store-components/",
   },
 ];
