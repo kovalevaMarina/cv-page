@@ -21,7 +21,7 @@ const projects = [
     title: "Burger Factory",
     description:
       "Personal pet project for making new habits. Choose from the existing list of challenges and start doing it!",
-    link: "https://batut.pp.ua/",
+    link: "https://kovalevamarina.github.io/burger-factory/",
   },
   {
     img: project_leoshop,

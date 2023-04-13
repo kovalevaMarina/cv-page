@@ -5,10 +5,11 @@ const ProjectItem = ({ img, title, description, link }) => {
   return (
     <div className="carousel-item w-full flex-col rounded-md bg-white-lilac dark:bg-gunmetal sm:w-2/3 md:w-2/5">
       <img
-        className="h-full max-w-full rounded-t-md"
+        className="h-60 max-w-full rounded-t-md object-cover md:h-44 lg:h-52 xl:h-48 2xl:h-52"
         src={img}
         alt={`Image project ${title}`}
       />
+
       <div className="flex shrink grow basis-auto flex-col justify-between gap-4 py-4 px-5">
         <div>
           <h3 className="title-h3 mb-3 text-gunmetal dark:text-azureish-white">

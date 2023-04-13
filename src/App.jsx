@@ -37,7 +37,7 @@ function App() {
       <div className="container mx-auto px-4">
         <Header darkMode={darkMode} setDarkMode={setDarkMode} />
         <div className="flex flex-col justify-center xl:flex-row xl:gap-6">
-          <aside>
+          <aside className="xl:max-w-sm">
             <About />
             <div className="md:flex md:justify-between xl:flex-col">
               <Contacts />
