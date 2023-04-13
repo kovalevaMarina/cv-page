@@ -4,13 +4,11 @@ import Link from "../Icons/LinkSimple";
 const ProjectItem = ({ img, title, description, link }) => {
   return (
     <div className="carousel-item w-full flex-col rounded-md bg-white-lilac dark:bg-gunmetal sm:w-2/3 md:w-2/5">
-      <div className="flex items-center justify-center overflow-hidden">
-        <img
-          className="block h-auto max-w-full rounded-t-md align-middle"
-          src={img}
-          alt={`Image project ${title}`}
-        />
-      </div>
+      <img
+        className="h-full max-w-full rounded-t-md"
+        src={img}
+        alt={`Image project ${title}`}
+      />
       <div className="flex shrink grow basis-auto flex-col justify-between gap-4 py-4 px-5">
         <div>
           <h3 className="title-h3 mb-3 text-gunmetal dark:text-azureish-white">
