@@ -31,7 +31,7 @@ const projects = [
     img: project_burder_factory,
     title: "Burger Factory",
     description:
-      "Personal pet project for making new habits. Choose from the existing list of challenges and start doing it!",
+      "The Burger Factory website is created to be responsive and adaptable. It involves using carousel, mobile burger, Google map.",
     tools: [
       "React",
       "React Router & Hooks",
@@ -46,7 +46,7 @@ const projects = [
     img: project_leoshop,
     title: "Modern Shop Website",
     description:
-      "The Store website for buying things online + the ability to add products to the cart.",
+      "The Leo Store project created on courses of self-study. It was using Fake Store API for implement shopping website prototype. Project opportunities are to add goods to the basket, delete goods from the basket, sort by category, every items has page for description information.",
     tools: [
       "React",
       "React Context & Hooks",
@@ -54,8 +54,9 @@ const projects = [
       "Webpack",
       "JavaScript",
       "SCSS",
+      "Fetch API",
     ],
-    link: "https://kovalevaMarina.github.io/web-store-components/",
+    link: "https://kovalevamarina.github.io/store-react/",
   },
 ];
 
