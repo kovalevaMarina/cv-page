@@ -3,7 +3,7 @@ import Link from "../Icons/LinkSimple";
 
 const ProjectItem = ({ img, title, description, tools, link }) => {
   return (
-    <div className="carousel-item w-full flex-col rounded-md bg-white-lilac dark:bg-gunmetal sm:w-2/3 md:w-2/5">
+    <div className="carousel-item w-full flex-col rounded-md bg-white-lilac dark:bg-gunmetal sm:w-2/3 md:w-2/5 transition duration-300 ease-in-out cursor-pointer hover:-translate-y-2.5">
       <img
         className="h-60 max-w-full rounded-t-md object-cover md:h-44 lg:h-52 xl:h-48 2xl:h-52"
         src={img}

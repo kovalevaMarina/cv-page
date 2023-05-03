@@ -71,7 +71,7 @@ const Projects = () => {
           <ArrowRight />
         </div>
       </div>
-      <div className="carousel-center carousel gap-2">
+      <div className="carousel-center carousel gap-2 pt-4">
         {projects.map((project, index) => (
           <ProjectItem key={index} {...project} />
         ))}
