@@ -3,7 +3,7 @@ import Link from "../Icons/LinkSimple";
 
 const ProjectItem = ({ img, title, description, tools, link }) => {
   return (
-    <div className="carousel-item w-full flex-col rounded-md bg-white-lilac dark:bg-gunmetal sm:w-2/3 md:w-2/5 transition duration-300 ease-in-out cursor-pointer hover:-translate-y-2.5">
+    <div className="carousel-item w-full flex-col rounded-md bg-azureish-white dark:bg-gunmetal sm:w-2/3 md:w-2/5 transition duration-300 ease-in-out cursor-pointer hover:-translate-y-2.5">
       <img
         className="h-60 max-w-full rounded-t-md object-cover md:h-44 lg:h-52 xl:h-48 2xl:h-52"
         src={img}
@@ -25,8 +25,8 @@ const ProjectItem = ({ img, title, description, tools, link }) => {
             ))}
           </div>
           <div className="flex items-center">
-            <div className="mr-1.5 rounded-full bg-hawkes-blue p-2 dark:bg-cobalt">
-              <Link className="h-4 w-4 fill-jordy-blue" />
+            <div className="mr-1.5 rounded-full bg-jordy-blue p-2 dark:bg-cobalt">
+              <Link className="h-4 w-4 fill-hawkes-blue" />
             </div>
             <a
               className="font-dmsans text-xs font-medium text-ultramarine-blue transition-all hover:opacity-70 dark:text-jordy-blue "
