@@ -7,6 +7,7 @@ import hillel from "../../assets/img/icons/hillel.png";
 import itvdn from "../../assets/img/icons/itvdn.png";
 import udemy from "../../assets/img/icons/udemy.png";
 import dnipro_agro from "../../assets/img/icons/dnipro_agro.png";
+import baza_trainee from "../../assets/img/icons/baza_trainee.png";
 
 export {
   photo,
@@ -18,4 +19,5 @@ export {
   itvdn,
   udemy,
   dnipro_agro,
+  baza_trainee,
 };

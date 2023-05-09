@@ -10,7 +10,7 @@ const ExperienceItem = ({
   responsibility,
 }) => {
   return (
-    <div className="mb-5 flex flex-col justify-between pl-1 pb-5 last:mb-0 md:mb-2 md:flex-row md:border-b-0 md:pb-0">
+    <div className="mb-5 flex flex-col justify-between pl-1 pb-5 last:mb-0 md:flex-row md:border-b-0 md:pb-0">
       <div className="mb-3 md:mb-0 md:basis-2/4">
         <div className="mb-4 flex items-center">
           <div className="block h-1 w-1 rounded-full bg-gunmetal dark:bg-crayola md:relative md:-left-[2px]"></div>

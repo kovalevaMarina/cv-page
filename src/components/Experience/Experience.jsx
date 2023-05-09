@@ -2,18 +2,29 @@ import React from "react";
 import ExperienceItem from "./ExperienceItem";
 import Location from "../Icons/LocationMarker";
 import Circle from "../Icons/Circle";
-import { dnipro_agro } from "../helper/images";
+import { dnipro_agro, baza_trainee } from "../helper/images";
 
 const experience = [
   {
-    period: "Feb 16 - Aug 2021",
+    period: "Feb 2016 - Aug 2021",
     icon: <Location className="h-3 w-3" />,
-    place: "Dnipro",
+    place: "Dnipro, Ukraine",
     iconCompany: dnipro_agro,
     position: "Manager for Administrative Activities",
     company: "LLC 'UKRTRANSLIT'",
     responsibility:
       "Led contracts with 300 clients per month. Worked with manual documentation. Performed personnel accounting.",
+  },
+
+  {
+    period: "Apr 2023 - Present",
+    icon: <Location className="h-3 w-3" />,
+    place: "Kiev, Ukraine (Remote)",
+    iconCompany: baza_trainee,
+    position: "Frontend Developer",
+    company: "Baza Trainee Ukraine",
+    responsibility:
+      "Implementing UI mocks. Styling UI components. Work with back-end developers to integrate UI components with APIs.",
   },
 ];
 
