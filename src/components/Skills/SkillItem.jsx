@@ -25,19 +25,19 @@ const SkillItem = ({
             key={i}
             className={` ${
               i === 0 ? "rounded-tl" : "rounded-tr"
-            } bg-white-lilac py-3 px-2 dark:bg-gunmetal md:py-5 md:px-4 `}
+            } bg-azureish-white py-3 px-2 dark:bg-gunmetal md:py-5 md:px-4 `}
           >
             {elem}
           </p>
         ))}
-        <div className="col-span-2 flex justify-between divide-x divide-black divide-opacity-10 bg-white-lilac py-3 px-2 dark:divide-white dark:divide-opacity-10 dark:bg-gunmetal md:py-5 md:px-4">
+        <div className="col-span-2 flex justify-between divide-x divide-black divide-opacity-10 bg-azureish-white py-3 px-2 dark:divide-white dark:divide-opacity-10 dark:bg-gunmetal md:py-5 md:px-4">
           {secondLine.map((elem, i) => (
             <p key={i} className="basis-2/4 py-1">
               {elem}
             </p>
           ))}
         </div>
-        <div className="col-span-2 flex justify-between divide-x divide-black divide-opacity-10 rounded-b bg-white-lilac py-3 px-2 dark:divide-white dark:divide-opacity-10 dark:bg-gunmetal md:py-5 md:px-4">
+        <div className="col-span-2 flex justify-between divide-x divide-black divide-opacity-10 rounded-b bg-azureish-white py-3 px-2 dark:divide-white dark:divide-opacity-10 dark:bg-gunmetal md:py-5 md:px-4">
           {thirdLine.map((elem, i) => (
             <p key={i} className="basis-1/3 py-1">
               {elem}

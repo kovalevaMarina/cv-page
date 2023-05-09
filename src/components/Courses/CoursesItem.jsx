@@ -9,7 +9,7 @@ const CoursesItem = ({
   linkCertificate,
 }) => {
   return (
-    <div className="flex flex-col justify-between gap-2 rounded bg-white-lilac p-5 dark:bg-gunmetal sm:py-6">
+    <div className="flex flex-col justify-between gap-2 rounded bg-azureish-white p-5 dark:bg-gunmetal sm:py-6">
       <div className="flex items-center gap-4">
         <div>
           <img className="w-24" src={images} alt={`Logo ${course}`} />
