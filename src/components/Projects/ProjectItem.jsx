@@ -25,8 +25,8 @@ const ProjectItem = ({ img, title, description, tools, link }) => {
             ))}
           </div>
           <div className="flex items-center">
-            <div className="mr-1.5 rounded-full bg-hawkes-blue p-2 dark:bg-cobalt">
-              <Link className="h-4 w-4 fill-jordy-blue" />
+            <div className="mr-1.5 rounded-full bg-jordy-blue p-2 dark:bg-cobalt">
+              <Link className="h-4 w-4 fill-hawkes-blue" />
             </div>
             <a
               className="font-dmsans text-xs font-medium text-ultramarine-blue transition-all hover:opacity-70 dark:text-jordy-blue "
