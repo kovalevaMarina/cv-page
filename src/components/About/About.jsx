@@ -32,7 +32,7 @@ const About = () => {
          <div class="flex max-w-xs">
           <a className="relative z-10 cursor-pointer items-center w-full overflow-hidden rounded-xl p-[1px]" href="./CV_Junior_Frontend_Kovaleva.pdf" target="_blank">
             <div class="animate-rotate absolute inset-0 h-full w-full rounded-md bg-[conic-gradient(#A478E8_20deg,transparent_120deg)]"></div>
-            <span class="relative z-50 block rounded-xl bg-gunmetal px-10 py-4 transition duration-300 text-center text-base tracking-wide text-white hover:border-slate-400 hover:bg-gradient-to-r hover:from-floral hover:to-ultramarine-blue hover:text-azureish-white dark:text-crayola dark:hover:text-azureish-white">Download CV .pdf</span>
+            <span class="relative z-50 block rounded-xl bg-white-lilac dark:bg-gunmetal px-10 py-4 transition duration-300 text-center text-base tracking-wide text-waterloo hover:border-slate-400 hover:bg-gradient-to-r hover:from-floral hover:to-ultramarine-blue hover:text-azureish-white dark:text-crayola dark:hover:text-azureish-white">Download CV .pdf</span>
           </a>
          </div>
       </div>
