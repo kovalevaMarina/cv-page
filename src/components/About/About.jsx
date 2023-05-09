@@ -24,10 +24,7 @@ const About = () => {
           Front-End Developer
         </p>
         <p className="font-normally mb-5 max-w-3xl text-xs leading-5 text-fiord dark:text-gainsboro text-center xl:text-left">
-          I am looking for a full-time job as a Trainee/Junior Front-End
-          Developer. I have ambition to qualify as a professional software
-          developer. I am motivated to continue to grow professionally and
-          personally.
+          Responsible developer with one year of experience in personal projects. Open to a new  opportunities and collaboration.
         </p>
          <div class="flex max-w-xs">
           <a className="relative z-10 cursor-pointer items-center w-full overflow-hidden rounded-xl p-[1px]" href="./CV_Junior_Frontend_Kovaleva.pdf" target="_blank">
