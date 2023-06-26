@@ -12,6 +12,7 @@ const experience = [
     iconCompany: dnipro_agro,
     position: "Manager for Administrative Activities",
     company: "LLC 'UKRTRANSLIT'",
+    linkCompany: "http://dniproazot-agrohimia.com.ua/",
     responsibility:
       "Led contracts with 300 clients per month. Worked with manual documentation. Performed personnel accounting.",
   },
@@ -23,6 +24,7 @@ const experience = [
     iconCompany: baza_trainee,
     position: "Frontend Developer",
     company: "Baza Trainee Ukraine",
+    linkCompany: "https://www.linkedin.com/company/baza-trainee/",
     responsibility:
       "Implementing UI mocks. Styling UI components. Work with back-end developers to integrate UI components with APIs.",
   },

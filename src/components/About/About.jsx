@@ -6,9 +6,9 @@ const About = () => {
     <section className="mb-4 border-b border-solid border-azureish-white pb-6 pt-4 dark:border-gunmetal">
       <div className="flex flex-col items-center xl:items-stretch">
         <div className="avatar mb-4 justify-center">
-          <div className="max-w-[180px] rounded-full">
+          <div className="w-44 h-44 rounded-full">
             <img
-              className="w-full bg-no-repeat"
+              className="w-full h-full bg-no-repeat"
               src={photo}
               alt="Marina Kovaleva"
             />

@@ -7,6 +7,7 @@ const ExperienceItem = ({
   iconCompany,
   position,
   company,
+  linkCompany,
   responsibility,
 }) => {
   return (
@@ -29,9 +30,9 @@ const ExperienceItem = ({
           </div>
           <div>
             <h5 className="title-h5 mb-1">{position}</h5>
-            <h4 className="title-h4 text-gunmetal dark:text-azureish-white">
+            <a href={linkCompany} target="_blank" className="title-h4 text-gunmetal transition-all dark:hover:text-floral hover:text-floral dark:text-azureish-white">
               {company}
-            </h4>
+            </a>
           </div>
         </div>
       </div>
