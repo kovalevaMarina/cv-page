@@ -26,7 +26,7 @@ const CoursesItem = ({
         <a
           href={linkCertificate}
           target="_blank"
-          className="flex max-w-[200px] cursor-pointer items-center justify-between rounded-lg border border-waterloo py-1 px-2 text-waterloo transition duration-200 hover:border-floral hover:text-floral active:bg-floral active:text-white"
+          className="flex max-w-[200px] cursor-pointer items-center justify-between rounded-lg border border-waterloo py-1 px-2 text-waterloo transition duration-200 hover:border-floral hover:text-floral active:text-gunmetal active:border-gunmetal dark:active:text-azureish-white dark:active:border-azureish-white"
         >
           <span className="text-base">Open the certificate</span>
           <OpenIcon />
