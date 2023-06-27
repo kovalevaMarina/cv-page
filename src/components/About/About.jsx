@@ -6,7 +6,7 @@ const About = () => {
     <section className="mb-4 border-b border-solid border-azureish-white pb-6 pt-4 dark:border-gunmetal">
       <div className="flex flex-col items-center xl:items-stretch">
         <div className="avatar mb-4 justify-center">
-          <div className="w-44 h-44 rounded-full">
+          <div className="w-44 h-44 rounded-full ping">
             <img
               className="w-full h-full bg-no-repeat"
               src={photo}
@@ -17,7 +17,7 @@ const About = () => {
         <p className="text-md mb-1 font-outfit font-bold tracking-wide text-black dark:text-gainsboro">
           Hi, I'm{" "}
         </p>
-        <h1 className="mb-1 font-outfit text-2xl font-medium leading-5 tracking-wider text-black dark:text-azureish-white">
+        <h1 className="mb-1 font-outfit tracking-in-expand-fwd text-2xl font-medium leading-5 tracking-wider text-black dark:text-azureish-white">
           Marina Kovaleva
         </h1>
         <p className="text-md mb-5 bg-gradient-to-r from-floral to-ultramarine-blue bg-clip-text font-outfit font-medium tracking-[.01em] text-transparent">

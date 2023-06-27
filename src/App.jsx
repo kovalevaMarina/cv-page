@@ -37,7 +37,7 @@ function App() {
       <div className="container mx-auto px-4">
         <Header darkMode={darkMode} setDarkMode={setDarkMode} />
         <div className="flex flex-col justify-center xl:flex-row xl:gap-6">
-          <aside className="xl:max-w-sm">
+          <aside className="xl:max-w-sm slide-in-left">
             <About />
             <div className="md:flex md:justify-between xl:flex-col">
               <Contacts />
@@ -45,7 +45,7 @@ function App() {
               <Langueges />
             </div>
           </aside>
-          <main className="py-9 xl:pl-10">
+          <main className="py-9 xl:pl-10 slide-in-right">
             <Projects />
             <Experience />
             <Courses />
