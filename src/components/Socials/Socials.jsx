@@ -41,6 +41,7 @@ const socials = [
 
   {
     socialName: "Linkedin",
+    // TODO: додати собачку до лінку
     link: "marina-kovaleva-b7470b166",
     linkHref: "https://www.linkedin.com/in/marina-kovaleva-b7470b166/",
     icon: <Linkedin className="h-5 w-5" />,

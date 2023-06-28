@@ -34,9 +34,11 @@ function App() {
 
   return (
     <div className="App">
+      {/* TODO: винести в окремий компонент Home */}
       <div className="container mx-auto px-4">
         <Header darkMode={darkMode} setDarkMode={setDarkMode} />
         <div className="flex flex-col justify-center xl:flex-row xl:gap-6">
+          {/* TODO: винести в окремі компоненти aside та main */}
           <aside className="xl:max-w-sm slide-in-left">
             <About />
             <div className="md:flex md:justify-between xl:flex-col">
